@@ -187,6 +187,10 @@ th {
 
 
 @media(max-width:568px) {
+    .profile{
+        flex-direction: column;
+        gap: 10px;
+    }
     .menu ul li a {
         display: flex;
         flex-direction: column;
